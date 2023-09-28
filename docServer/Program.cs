@@ -35,6 +35,18 @@ builder.Services.AddSingleton<ILoggerFactory, LoggerFactory>();
 builder.Services.AddSingleton(typeof(ILogger<>), typeof(Logger<>));
 
 
+// Logging
+builder.Services.AddLogging();
+builder.Host.UseSerilog((ctx, lc) => lc.WriteTo.File(
+    path: "/Users/armah/Documents/SE Projects/docServer/docServer/logs/Log-.txt",
+    
+    //path: "//Users//armah//Desktop//Glasses//Glasses//logs//Logss.txt",
+    //path: "/Users/armah/Desktop/H Digital/Glasses//logs//Log-.txt",
+    outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz}[{Level:u3}]{Message:lj}{NewLine}{Exception}",
+    rollingInterval: RollingInterval.Day,
+    restrictedToMinimumLevel: LogEventLevel.Information));
+
+
 builder.Services.AddAutoMapper(typeof(MapperInitializer));
 builder.Services.AddLogging();
 
