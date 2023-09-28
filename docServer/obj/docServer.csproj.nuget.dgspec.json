@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/armah/Documents/DocServer/docServer/docServer/docServer.csproj": {}
+    "/Users/armah/Documents/SE Projects/docServer/docServer/docServer.csproj": {}
   },
   "projects": {
-    "/Users/armah/Documents/DocServer/docServer/docServer/docServer.csproj": {
+    "/Users/armah/Documents/SE Projects/docServer/docServer/docServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/armah/Documents/DocServer/docServer/docServer/docServer.csproj",
+        "projectUniqueName": "/Users/armah/Documents/SE Projects/docServer/docServer/docServer.csproj",
         "projectName": "docServer",
-        "projectPath": "/Users/armah/Documents/DocServer/docServer/docServer/docServer.csproj",
+        "projectPath": "/Users/armah/Documents/SE Projects/docServer/docServer/docServer.csproj",
         "packagesPath": "/Users/armah/.nuget/packages/",
-        "outputPath": "/Users/armah/Documents/DocServer/docServer/docServer/obj/",
+        "outputPath": "/Users/armah/Documents/SE Projects/docServer/docServer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/armah/.nuget/NuGet/NuGet.Config"
@@ -20,6 +20,7 @@
           "net6.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.308/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +38,52 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Collection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.413/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
         }
       }
     }
