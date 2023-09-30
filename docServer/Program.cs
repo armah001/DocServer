@@ -11,6 +11,10 @@ using Microsoft.OpenApi.Models;
 using System.Text;
 using Microsoft.Extensions.Configuration;
 using docServer.Data;
+using docServer.IRepository;
+using docServer.Repository;
+using docServer.Configurations;
+using Newtonsoft.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +23,11 @@ builder.Services.AddDbContext<docServerContext>(options => options.UseMySql(mySq
 
 
 builder.Services.AddControllers();
+
+//builder.Services.AddControllers().AddNewtonsoftJson(
+//    op => op.SerializerSettings.ReferenceLoopHandling =
+//    Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c => {
@@ -32,6 +41,8 @@ builder.Services.AddSwaggerGen(c => {
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddTransient<iUnitOfWorks, UnitOfWorks>();
+builder.Services.AddScoped<IDocumentService, DocumentService>();
 
 builder.Services.AddSingleton(Serilog.Log.Logger);
 builder.Services.AddSingleton<ILoggerFactory, LoggerFactory>();
@@ -40,6 +51,7 @@ builder.Services.AddSingleton(typeof(ILogger<>), typeof(Logger<>));
 
 // Logging
 builder.Services.AddLogging();
+
 builder.Host.UseSerilog((ctx, lc) => lc.WriteTo.File(
     path: "/Users/armah/Documents/SE Projects/docServer/docServer/logs/Log-.txt",
     
@@ -50,7 +62,7 @@ builder.Host.UseSerilog((ctx, lc) => lc.WriteTo.File(
     restrictedToMinimumLevel: LogEventLevel.Information));
 
 
-builder.Services.AddAutoMapper(typeof(MapperInitializer));
+builder.Services.AddAutoMapper(typeof(MapperInitialiser));
 builder.Services.AddLogging();
 
 var app = builder.Build();

@@ -45,5 +45,6 @@
     <PackageReference Include="Pomelo.EntityFrameworkCore.Lolita.MySql" Version="6.0.5" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql.Design" Version="1.1.2" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 </Project>
