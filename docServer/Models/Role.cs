@@ -1,11 +1,10 @@
 ﻿using System;
 namespace docServer.Models
 {
-	public class Role
+	public enum Role
 	{
-		public Role()
-		{
-		}
-	}
+        USER,
+        ADMIN
+    }
 }
 
