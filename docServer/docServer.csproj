@@ -14,6 +14,7 @@
     <None Remove="IRepository \" />
     <None Remove="Repository \" />
     <None Remove="Configurations \" />
+    <None Remove="Controller\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -23,6 +24,7 @@
     <Folder Include="IRepository \" />
     <Folder Include="Repository \" />
     <Folder Include="Configurations \" />
+    <Folder Include="Controller\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
