@@ -7,7 +7,7 @@ namespace docServer.Models
     public class User
     {
         [Key]
-        public long Id;
+        public int Id;
 
         [Required]
         public String FullName { get; set; }
@@ -25,7 +25,7 @@ namespace docServer.Models
         // Property to store user roles from role class for type safety/code readability 
         public Role UserRole { get; set; }
 
-        public User(long id, string fullName, string email, string password, Role userRole)
+        public User(int id, string fullName, string email, string password, Role userRole)
         {
             Id = id;
             FullName = fullName;

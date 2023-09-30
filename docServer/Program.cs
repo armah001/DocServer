@@ -8,12 +8,15 @@ using System.Configuration;
 using Microsoft.AspNetCore.Identity;
 using AutoMapper;
 using Microsoft.OpenApi.Models;
-//using Microsoft.AspNetCore.Authentication.JwtBearer;
-//using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.Extensions.Configuration;
+using docServer.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+
+String mySqlConnectionStr = builder.Configuration.GetConnectionString("DbConnection");
+builder.Services.AddDbContext<docServerContext>(options => options.UseMySql(mySqlConnectionStr, ServerVersion.AutoDetect(mySqlConnectionStr)));
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
