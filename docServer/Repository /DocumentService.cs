@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace docServer.Repository
 {
-	public class DocumentService:IDocumentService
+    public class DocumentService : IDocumentService
 	{
         private readonly docServerContext context;
         private readonly iUnitOfWorks _unitOfWork;
@@ -34,15 +34,15 @@ namespace docServer.Repository
             return products.ToList();
         }
 
-        public async Task<Document> GetSingleProduct(int id)
+        public async Task<Document> GetSingleDocument(int id)
         {
             var product = await _unitOfWork.Documents.Get(q => q.DocId == id);
             return product;
         }
 
-        public async Task<Document> CreateDocument(DocumentDTO ProductDTO)
+        public async Task<Document> CreateDocument(CreateDocumentDTO DocumentDTO)
         {
-            var document = _mapper.Map<Document>(ProductDTO);
+            var document = _mapper.Map<Document>(DocumentDTO);
             await _unitOfWork.Documents.Insert(document);
             await _unitOfWork.Save();
             return document;
