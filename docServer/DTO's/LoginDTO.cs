@@ -8,7 +8,7 @@ namespace docServer.DTOs
         [Required]
         public string Email { get; set; }
         [Required]
-        [StringLength(15, ErrorMessage = "Your password limited to ...", MinimumLength = 8)]
+        [StringLength(25, MinimumLength = 6)]
         public string Password { get; set; }
     }
 }

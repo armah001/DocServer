@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0QWqQCmcAyGdIzi/oTTLuYatjpS4UwEObJbYwF8XzZCCv1MIBSmxjvg14pIkdMWZBufne7kVDbkUA0YynnOXyA==",
+  "dgSpecHash": "/78JI2DUGxZHwIa1AqbUsxMH9mXq45WRRV6zU5RYeVQJW7JYogvg9q1AAsv2I+CjJqlJt0eeEfVfImxMgzMNeg==",
   "success": true,
   "projectFilePath": "/Users/armah/Documents/SE Projects/docServer/docServer/docServer.csproj",
   "expectedPackageFiles": [
@@ -74,6 +74,7 @@
     "/Users/armah/.nuget/packages/serilog.sinks.debug/2.0.0/serilog.sinks.debug.2.0.0.nupkg.sha512",
     "/Users/armah/.nuget/packages/serilog.sinks.file/5.0.0/serilog.sinks.file.5.0.0.nupkg.sha512",
     "/Users/armah/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/armah/.nuget/packages/swashbuckle.aspnetcore.annotations/6.5.0/swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
     "/Users/armah/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "/Users/armah/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "/Users/armah/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",

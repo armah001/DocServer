@@ -5,7 +5,7 @@ namespace docServer.IRepository
 {
 	public interface iUnitOfWorks : IDisposable
     {
-        IGenericRepository<Document> Documents { get; }
+        //IGenericRepository<Document> Documents { get; }
 
         Task Save();
     }

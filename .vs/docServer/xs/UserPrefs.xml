@@ -1,32 +1,32 @@
 ﻿<Properties StartupConfiguration="{C30F2633-C952-49AC-B4F1-D67E42199C39}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="docServer/IRepository /IGenericRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="docServer/Data/docServerContext.cs">
     <Files>
-      <File FileName="docServer/Program.cs" Line="6" Column="22" />
-      <File FileName="docServer/Repository /UnitofWorks.cs" Line="10" Column="1" />
-      <File FileName="docServer/IRepository /IGenericRepository.cs" Line="11" Column="20" />
+      <File FileName="docServer/Program.cs" />
+      <File FileName="docServer/appsettings.json" Line="11" Column="107" />
+      <File FileName="docServer/Data/docServerContext.cs" Line="24" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="docServer">
+          <Node name="docServer" expanded="True">
             <Node name="docServer">
-              <Node name="Data" expanded="True" />
-              <Node name="DTO's" expanded="True" />
-              <Node name="IRepository " expanded="True">
-                <Node name="IGenericRepository.cs" selected="True" />
+              <Node name="Controller" expanded="True" />
+              <Node name="Data">
+                <Node name="docServerContext.cs" selected="True" />
               </Node>
-              <Node name="Repository " expanded="True" />
+              <Node name="logs" expanded="True" />
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.docServer PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.docServer PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

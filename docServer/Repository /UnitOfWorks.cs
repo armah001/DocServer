@@ -10,7 +10,6 @@ namespace docServer.Repository
 
 	{
         private readonly docServerContext _context;
-        private IGenericRepository<Document> _documents;
         private readonly ILogger<UnitOfWorks> _logger;
 
         public UnitOfWorks(docServerContext context, ILogger<UnitOfWorks> logger)
@@ -20,7 +19,6 @@ namespace docServer.Repository
             _logger = logger;
         }
 
-        public IGenericRepository<Document> Documents => _documents ??= new GenericRepository<Document>(_context);
 
         public void Dispose()
         {

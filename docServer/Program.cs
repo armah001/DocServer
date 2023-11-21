@@ -28,9 +28,14 @@ builder.Services.AddControllers();
 //    op => op.SerializerSettings.ReferenceLoopHandling =
 //    Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
+builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c => {
+builder.Services.AddSwaggerGen();
+
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "DocServer", Version = "v1" });
     c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
     c.IgnoreObsoleteActions();
     c.IgnoreObsoleteProperties();
@@ -38,11 +43,9 @@ builder.Services.AddSwaggerGen(c => {
 });
 
 
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
 builder.Services.AddTransient<iUnitOfWorks, UnitOfWorks>();
-builder.Services.AddScoped<IDocumentService, DocumentService>();
+//builder.Services.AddScoped<IDocumentService, DocumentService>();
+builder.Services.AddTransient<IUserService, UserService>();
 
 builder.Services.AddSingleton(Serilog.Log.Logger);
 builder.Services.AddSingleton<ILoggerFactory, LoggerFactory>();
@@ -55,8 +58,7 @@ builder.Services.AddLogging();
 builder.Host.UseSerilog((ctx, lc) => lc.WriteTo.File(
     path: "/Users/armah/Documents/SE Projects/docServer/docServer/logs/Log-.txt",
     
-    //path: "//Users//armah//Desktop//Glasses//Glasses//logs//Logss.txt",
-    //path: "/Users/armah/Desktop/H Digital/Glasses//logs//Log-.txt",
+    
     outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz}[{Level:u3}]{Message:lj}{NewLine}{Exception}",
     rollingInterval: RollingInterval.Day,
     restrictedToMinimumLevel: LogEventLevel.Information));

@@ -10,11 +10,11 @@ namespace docServer.Configurations
     {
 		public MapperInitialiser()
 		{
-            CreateMap<Document, DocumentDTO>().ReverseMap();
+            //CreateMap<Document, DocumentDTO>().ReverseMap();
 
-            CreateMap<Document, CreateDocumentDTO>().ReverseMap();
+            //CreateMap<Document, CreateDocumentDTO>().ReverseMap();
 
-            CreateMap<Document, UpdateDocumentDTO>().ReverseMap();
+            //CreateMap<Document, UpdateDocumentDTO>().ReverseMap();
 
             CreateMap<User, UserDTO>().ReverseMap();
 

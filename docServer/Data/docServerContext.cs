@@ -13,7 +13,7 @@ namespace docServer.Data
 	public class docServerContext:DbContext
 	{
         public DbSet<User> User { get; set; }
-        public DbSet<Document> Document { get; set; }
+        //public DbSet<Document> Document { get; set; }
 
 
         public docServerContext(DbContextOptions<docServerContext> options)
@@ -41,27 +41,27 @@ namespace docServer.Data
             builder.Entity<User>().Property(ug => ug.Password).HasColumnType("nvarchar(100)").IsRequired();
 
             //Documents
-            builder.Entity<Document>().ToTable("docServerDocuments");
+            //builder.Entity<Document>().ToTable("docServerDocuments");
 
-            //Confifure primary key  
-            builder.Entity<Document>().HasKey(doc => doc.DocId).HasName("DocID");
+            ////Confifure primary key  
+            //builder.Entity<Document>().HasKey(doc => doc.DocId).HasName("DocID");
 
-            // Configure columns
+            //// Configure columns
 
-            builder.Entity<Document>().Property(doc => doc.DocId).HasColumnType("int").UseMySqlIdentityColumn().IsRequired();
+            //builder.Entity<Document>().Property(doc => doc.DocId).HasColumnType("int").UseMySqlIdentityColumn().IsRequired();
 
-            builder.Entity<Document>().Property(doc => doc.DocName).HasColumnType("nvarchar(255)")
-                .IsRequired();
+            //builder.Entity<Document>().Property(doc => doc.DocName).HasColumnType("nvarchar(255)")
+            //    .IsRequired();
 
-            builder.Entity<Document>().Property(doc => doc.DocType).HasColumnType("nvarchar(50)")
-                .IsRequired();
+            //builder.Entity<Document>().Property(doc => doc.DocType).HasColumnType("nvarchar(50)")
+            //    .IsRequired();
 
-            builder.Entity<Document>().Property(d => d.DocDescription).HasColumnType("nvarchar(max)");
+            //builder.Entity<Document>().Property(d => d.DocDescription).HasColumnType("nvarchar(max)");
 
         }
 
-        public virtual DbSet<User> Products { get; set; }
-        public virtual DbSet<Document> ApiUsers { get; set; }
+        public virtual DbSet<User> Usrers { get; set; }
+        //public virtual DbSet<Document> Documents { get; set; }
     }
 }
 

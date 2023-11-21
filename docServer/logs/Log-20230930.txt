@@ -1,0 +1,455 @@
+2023-09-30 20:08:12.068 +00:00[INF]Now listening on: https://localhost:7214
+2023-09-30 20:08:12.090 +00:00[INF]Now listening on: http://localhost:5284
+2023-09-30 20:08:12.093 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-09-30 20:08:12.093 +00:00[INF]Hosting environment: Development
+2023-09-30 20:08:12.093 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-09-30 20:08:13.580 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:08:13.622 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 44.5207ms
+2023-09-30 20:26:45.339 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:26:45.346 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 7.0903ms
+2023-09-30 20:26:46.117 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:26:46.120 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 3.0125ms
+2023-09-30 20:29:03.120 +00:00[INF]Now listening on: https://localhost:7214
+2023-09-30 20:29:03.142 +00:00[INF]Now listening on: http://localhost:5284
+2023-09-30 20:29:03.144 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-09-30 20:29:03.144 +00:00[INF]Hosting environment: Development
+2023-09-30 20:29:03.144 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-09-30 20:29:04.319 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:29:04.373 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 54.4145ms
+2023-09-30 20:29:18.761 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:29:18.762 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 0.9520ms
+2023-09-30 20:31:12.244 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:31:12.248 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 4.3095ms
+2023-09-30 20:31:13.182 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:31:13.182 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 0.3268ms
+2023-09-30 20:31:13.982 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:31:13.983 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 0.3453ms
+2023-09-30 20:31:14.743 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:31:14.744 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 0.2717ms
+2023-09-30 20:31:15.344 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:31:15.344 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 0.3169ms
+2023-09-30 20:34:54.498 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:34:54.499 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 1.3584ms
+2023-09-30 20:34:56.015 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:34:56.016 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 0.9092ms
+2023-09-30 20:35:50.906 +00:00[INF]Now listening on: https://localhost:7214
+2023-09-30 20:35:50.926 +00:00[INF]Now listening on: http://localhost:5284
+2023-09-30 20:35:50.928 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-09-30 20:35:50.929 +00:00[INF]Hosting environment: Development
+2023-09-30 20:35:50.929 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-09-30 20:35:52.161 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:35:52.213 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 54.7112ms
+2023-09-30 20:36:56.563 +00:00[INF]Now listening on: https://localhost:7214
+2023-09-30 20:36:56.584 +00:00[INF]Now listening on: http://localhost:5284
+2023-09-30 20:36:56.587 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-09-30 20:36:56.588 +00:00[INF]Hosting environment: Development
+2023-09-30 20:36:56.588 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-09-30 20:36:57.713 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:36:57.776 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 65.6776ms
+2023-09-30 20:37:14.889 +00:00[INF]Now listening on: https://localhost:7214
+2023-09-30 20:37:14.918 +00:00[INF]Now listening on: http://localhost:5284
+2023-09-30 20:37:14.921 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-09-30 20:37:14.921 +00:00[INF]Hosting environment: Development
+2023-09-30 20:37:14.921 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-09-30 20:37:15.964 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:37:16.006 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 45.1565ms
+2023-09-30 20:41:39.698 +00:00[INF]Now listening on: https://localhost:7214
+2023-09-30 20:41:39.722 +00:00[INF]Now listening on: http://localhost:5284
+2023-09-30 20:41:39.725 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-09-30 20:41:39.726 +00:00[INF]Hosting environment: Development
+2023-09-30 20:41:39.726 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-09-30 20:41:40.814 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:41:40.879 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 77.4941ms
+2023-09-30 20:42:03.020 +00:00[INF]Now listening on: https://localhost:7214
+2023-09-30 20:42:03.041 +00:00[INF]Now listening on: http://localhost:5284
+2023-09-30 20:42:03.044 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-09-30 20:42:03.045 +00:00[INF]Hosting environment: Development
+2023-09-30 20:42:03.045 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-09-30 20:42:04.240 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:42:04.286 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 48.9253ms
+2023-09-30 20:44:26.201 +00:00[INF]Now listening on: https://localhost:7214
+2023-09-30 20:44:26.220 +00:00[INF]Now listening on: http://localhost:5284
+2023-09-30 20:44:26.222 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-09-30 20:44:26.222 +00:00[INF]Hosting environment: Development
+2023-09-30 20:44:26.223 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-09-30 20:44:27.396 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:44:27.443 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 55.5840ms
+2023-09-30 20:45:02.208 +00:00[INF]Now listening on: https://localhost:7214
+2023-09-30 20:45:02.238 +00:00[INF]Now listening on: http://localhost:5284
+2023-09-30 20:45:02.242 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-09-30 20:45:02.242 +00:00[INF]Hosting environment: Development
+2023-09-30 20:45:02.242 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-09-30 20:45:03.308 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:45:03.363 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 61.6951ms
+2023-09-30 20:48:09.189 +00:00[INF]Now listening on: https://localhost:7214
+2023-09-30 20:48:09.210 +00:00[INF]Now listening on: http://localhost:5284
+2023-09-30 20:48:09.213 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-09-30 20:48:09.213 +00:00[INF]Hosting environment: Development
+2023-09-30 20:48:09.213 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-09-30 20:48:10.330 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:48:10.383 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 54.2361ms
+2023-09-30 20:48:28.895 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:48:28.897 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 1.4764ms
+2023-09-30 20:48:28.977 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/favicon.ico - -
+2023-09-30 20:48:28.979 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/favicon.ico - - - 404 0 - 2.2772ms
+2023-09-30 20:48:28.990 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/apple-touch-icon-precomposed.png - -
+2023-09-30 20:48:28.990 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/apple-touch-icon-precomposed.png - - - 404 0 - 0.3373ms
+2023-09-30 20:48:28.992 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/apple-touch-icon.png - -
+2023-09-30 20:48:28.992 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/apple-touch-icon.png - - - 404 0 - 0.0868ms
+2023-09-30 20:48:34.289 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:48:34.290 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 0.2430ms
+2023-09-30 20:48:35.559 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:48:35.559 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 0.3622ms
+2023-09-30 20:48:50.715 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:48:50.719 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 3.5525ms
+2023-09-30 20:48:53.950 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:48:53.951 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 0.3778ms
+2023-09-30 20:49:00.607 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:49:00.607 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 0.6206ms
+2023-09-30 20:50:09.017 +00:00[INF]Now listening on: https://localhost:7214
+2023-09-30 20:50:09.036 +00:00[INF]Now listening on: http://localhost:5284
+2023-09-30 20:50:09.039 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-09-30 20:50:09.039 +00:00[INF]Hosting environment: Development
+2023-09-30 20:50:09.039 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-09-30 20:50:10.226 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:50:10.287 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 66.6283ms
+2023-09-30 20:51:49.112 +00:00[INF]Now listening on: https://localhost:7214
+2023-09-30 20:51:49.139 +00:00[INF]Now listening on: http://localhost:5284
+2023-09-30 20:51:49.142 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-09-30 20:51:49.143 +00:00[INF]Hosting environment: Development
+2023-09-30 20:51:49.143 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-09-30 20:51:50.208 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:51:50.263 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 56.7221ms
+2023-09-30 20:56:14.587 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 20:56:14.590 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 3.8547ms
+2023-09-30 21:03:21.056 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 21:03:21.061 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 6.3603ms
+2023-09-30 22:27:26.411 +00:00[INF]Now listening on: https://localhost:7214
+2023-09-30 22:27:26.434 +00:00[INF]Now listening on: http://localhost:5284
+2023-09-30 22:27:26.437 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-09-30 22:27:26.437 +00:00[INF]Hosting environment: Development
+2023-09-30 22:27:26.437 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-09-30 22:27:27.639 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 22:27:27.683 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 46.5915ms
+2023-09-30 22:27:40.770 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 22:27:40.771 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 0.9262ms
+2023-09-30 22:27:52.020 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/index.html - -
+2023-09-30 22:27:52.145 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/index.html - - - 200 - text/html;charset=utf-8 124.7763ms
+2023-09-30 22:27:52.176 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/swagger-ui.css - -
+2023-09-30 22:27:52.188 +00:00[INF]Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-09-30 22:27:52.188 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/swagger-ui.css - - - 200 144929 text/css 12.2114ms
+2023-09-30 22:27:52.189 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/swagger-ui-bundle.js - -
+2023-09-30 22:27:52.302 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/swagger-ui-standalone-preset.js - -
+2023-09-30 22:27:52.428 +00:00[INF]Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-30 22:27:52.428 +00:00[INF]Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-30 22:27:52.431 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 242.6907ms
+2023-09-30 22:27:52.431 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 129.5248ms
+2023-09-30 22:27:52.536 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - -
+2023-09-30 22:27:52.573 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/favicon-32x32.png - -
+2023-09-30 22:27:52.573 +00:00[INF]Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-09-30 22:27:52.573 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/favicon-32x32.png - - - 200 628 image/png 0.1940ms
+2023-09-30 22:27:52.643 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 106.5033ms
+2023-09-30 22:29:44.845 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/index.html - -
+2023-09-30 22:29:44.851 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/index.html - - - 200 - text/html;charset=utf-8 6.8866ms
+2023-09-30 22:29:44.960 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - -
+2023-09-30 22:29:44.964 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.8761ms
+2023-09-30 22:29:49.383 +00:00[INF]Now listening on: https://localhost:7214
+2023-09-30 22:29:49.406 +00:00[INF]Now listening on: http://localhost:5284
+2023-09-30 22:29:49.409 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-09-30 22:29:49.410 +00:00[INF]Hosting environment: Development
+2023-09-30 22:29:49.410 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-09-30 22:29:50.542 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 22:29:50.597 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 57.7332ms
+2023-09-30 22:29:55.868 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/index.html - -
+2023-09-30 22:29:55.998 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/index.html - - - 200 - text/html;charset=utf-8 129.7799ms
+2023-09-30 22:29:56.079 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - -
+2023-09-30 22:29:56.159 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.7886ms
+2023-09-30 22:31:04.521 +00:00[INF]Now listening on: https://localhost:7214
+2023-09-30 22:31:04.541 +00:00[INF]Now listening on: http://localhost:5284
+2023-09-30 22:31:04.543 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-09-30 22:31:04.543 +00:00[INF]Hosting environment: Development
+2023-09-30 22:31:04.543 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-09-30 22:31:05.666 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 22:31:05.710 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 47.4390ms
+2023-09-30 22:31:06.901 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 22:31:06.901 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 0.5807ms
+2023-09-30 22:31:12.673 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/index.html - -
+2023-09-30 22:31:12.811 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/index.html - - - 200 - text/html;charset=utf-8 137.8657ms
+2023-09-30 22:31:12.883 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - -
+2023-09-30 22:31:12.963 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.1190ms
+2023-09-30 22:33:33.807 +00:00[INF]Request starting HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundary0AGoYEWVGFILyyqB 453
+2023-09-30 22:33:33.828 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-09-30 22:33:33.863 +00:00[INF]Route matched with {action = "SignUp", controller = "User"}. Executing controller action with signature Boolean SignUp(docServer.Models.User) on controller docServer.Controller.UserController (docServer).
+2023-09-30 22:33:34.656 +00:00[INF]Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE `DocServer`;
+2023-09-30 22:33:34.730 +00:00[INF]Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2023-09-30 22:33:34.734 +00:00[ERR]Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `docServerDocuments` (
+    `DocId` int NOT NULL AUTO_INCREMENT,
+    `DocName` nvarchar(255) NOT NULL,
+    `DocType` nvarchar(50) NOT NULL,
+    `DocData` longblob NOT NULL,
+    `DocDescription` nvarchar(max) NOT NULL,
+    CONSTRAINT `DocID` PRIMARY KEY (`DocId`)
+) CHARACTER SET=utf8mb4;
+2023-09-30 22:33:44.550 +00:00[INF]Executed action docServer.Controller.UserController.SignUp (docServer) in 10679.982ms
+2023-09-30 22:33:44.552 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-09-30 22:33:44.557 +00:00[ERR]An unhandled exception has occurred while executing the request.
+MySqlConnector.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'max) NOT NULL,
+    CONSTRAINT `DocID` PRIMARY KEY (`DocId`)
+) CHARACTER SET=u...' at line 6
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 468
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 55
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 296
+   at MySqlConnector.MySqlCommand.ExecuteNonQuery() in /_/src/MySqlConnector/MySqlCommand.cs:line 107
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   at docServer.Data.docServerContext..ctor(DbContextOptions`1 options) in /Users/armah/Documents/SE Projects/docServer/docServer/Data/docServerContext.cs:line 22
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-30 22:33:45.980 +00:00[INF]Request finished HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundary0AGoYEWVGFILyyqB 453 - 500 - text/plain;+charset=utf-8 12173.3670ms
+2023-09-30 22:35:57.647 +00:00[INF]Request starting HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundaryBGKz0NJVBHGVfsrf 453
+2023-09-30 22:35:57.654 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-09-30 22:35:57.656 +00:00[INF]Route matched with {action = "SignUp", controller = "User"}. Executing controller action with signature Boolean SignUp(docServer.Models.User) on controller docServer.Controller.UserController (docServer).
+2023-09-30 22:35:57.704 +00:00[INF]Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE `DocServer`;
+2023-09-30 22:35:57.711 +00:00[INF]Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2023-09-30 22:35:57.712 +00:00[ERR]Failed executing DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `docServerDocuments` (
+    `DocId` int NOT NULL AUTO_INCREMENT,
+    `DocName` nvarchar(255) NOT NULL,
+    `DocType` nvarchar(50) NOT NULL,
+    `DocData` longblob NOT NULL,
+    `DocDescription` nvarchar(max) NOT NULL,
+    CONSTRAINT `DocID` PRIMARY KEY (`DocId`)
+) CHARACTER SET=utf8mb4;
+2023-09-30 22:36:01.522 +00:00[INF]Executed action docServer.Controller.UserController.SignUp (docServer) in 3865.1482ms
+2023-09-30 22:36:01.522 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-09-30 22:36:01.523 +00:00[ERR]An unhandled exception has occurred while executing the request.
+MySqlConnector.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'max) NOT NULL,
+    CONSTRAINT `DocID` PRIMARY KEY (`DocId`)
+) CHARACTER SET=u...' at line 6
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 468
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 55
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 296
+   at MySqlConnector.MySqlCommand.ExecuteNonQuery() in /_/src/MySqlConnector/MySqlCommand.cs:line 107
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   at docServer.Data.docServerContext..ctor(DbContextOptions`1 options) in /Users/armah/Documents/SE Projects/docServer/docServer/Data/docServerContext.cs:line 22
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-30 22:36:01.528 +00:00[INF]Request finished HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundaryBGKz0NJVBHGVfsrf 453 - 500 - text/plain;+charset=utf-8 3882.5933ms
+2023-09-30 22:36:07.023 +00:00[INF]Now listening on: https://localhost:7214
+2023-09-30 22:36:07.046 +00:00[INF]Now listening on: http://localhost:5284
+2023-09-30 22:36:07.049 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-09-30 22:36:07.049 +00:00[INF]Hosting environment: Development
+2023-09-30 22:36:07.049 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-09-30 22:36:08.187 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-09-30 22:36:08.244 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 60.2837ms
+2023-09-30 22:36:11.043 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/index.html - -
+2023-09-30 22:36:11.183 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/index.html - - - 200 - text/html;charset=utf-8 139.5841ms
+2023-09-30 22:36:11.322 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - -
+2023-09-30 22:36:11.408 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 86.4772ms
+2023-09-30 22:36:24.851 +00:00[INF]Request starting HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundary9WyB9SNAlU4cG0dd 438
+2023-09-30 22:36:24.863 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-09-30 22:36:24.903 +00:00[INF]Route matched with {action = "SignUp", controller = "User"}. Executing controller action with signature Boolean SignUp(docServer.Models.User) on controller docServer.Controller.UserController (docServer).
+2023-09-30 22:36:25.662 +00:00[INF]Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'DocServer_db'
+2023-09-30 22:36:25.748 +00:00[INF]Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2023-09-30 22:36:25.752 +00:00[ERR]Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `docServerDocuments` (
+    `DocId` int NOT NULL AUTO_INCREMENT,
+    `DocName` nvarchar(255) NOT NULL,
+    `DocType` nvarchar(50) NOT NULL,
+    `DocData` longblob NOT NULL,
+    `DocDescription` nvarchar(max) NOT NULL,
+    CONSTRAINT `DocID` PRIMARY KEY (`DocId`)
+) CHARACTER SET=utf8mb4;
+2023-09-30 22:36:58.749 +00:00[INF]Executed action docServer.Controller.UserController.SignUp (docServer) in 33841.237ms
+2023-09-30 22:36:58.752 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-09-30 22:36:58.756 +00:00[ERR]An unhandled exception has occurred while executing the request.
+MySqlConnector.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'max) NOT NULL,
+    CONSTRAINT `DocID` PRIMARY KEY (`DocId`)
+) CHARACTER SET=u...' at line 6
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 468
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 55
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 296
+   at MySqlConnector.MySqlCommand.ExecuteNonQuery() in /_/src/MySqlConnector/MySqlCommand.cs:line 107
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   at docServer.Data.docServerContext..ctor(DbContextOptions`1 options) in /Users/armah/Documents/SE Projects/docServer/docServer/Data/docServerContext.cs:line 22
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-30 22:36:58.795 +00:00[INF]Request finished HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundary9WyB9SNAlU4cG0dd 438 - 500 - text/plain;+charset=utf-8 33944.2298ms
+2023-09-30 22:38:56.129 +00:00[INF]Request starting HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundaryc0SUIF0kuFPqrFFh 438
+2023-09-30 22:38:56.136 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-09-30 22:38:56.138 +00:00[INF]Route matched with {action = "SignUp", controller = "User"}. Executing controller action with signature Boolean SignUp(docServer.Models.User) on controller docServer.Controller.UserController (docServer).
+2023-09-30 22:38:56.257 +00:00[INF]Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE `DocServer_db`;
+2023-09-30 22:38:56.288 +00:00[INF]Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2023-09-30 22:38:56.289 +00:00[ERR]Failed executing DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `docServerDocuments` (
+    `DocId` int NOT NULL AUTO_INCREMENT,
+    `DocName` nvarchar(255) NOT NULL,
+    `DocType` nvarchar(50) NOT NULL,
+    `DocData` longblob NOT NULL,
+    `DocDescription` nvarchar(max) NOT NULL,
+    CONSTRAINT `DocID` PRIMARY KEY (`DocId`)
+) CHARACTER SET=utf8mb4;
+2023-09-30 22:39:39.326 +00:00[INF]Executed action docServer.Controller.UserController.SignUp (docServer) in 43188.683ms
+2023-09-30 22:39:39.328 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-09-30 22:39:39.328 +00:00[ERR]An unhandled exception has occurred while executing the request.
+MySqlConnector.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'max) NOT NULL,
+    CONSTRAINT `DocID` PRIMARY KEY (`DocId`)
+) CHARACTER SET=u...' at line 6
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 43
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 468
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 55
+   at MySqlConnector.MySqlCommand.ExecuteNonQueryAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 296
+   at MySqlConnector.MySqlCommand.ExecuteNonQuery() in /_/src/MySqlConnector/MySqlCommand.cs:line 107
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabaseCreator.EnsureCreated()
+   at docServer.Data.docServerContext..ctor(DbContextOptions`1 options) in /Users/armah/Documents/SE Projects/docServer/docServer/Data/docServerContext.cs:line 22
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-30 22:39:39.335 +00:00[INF]Request finished HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundaryc0SUIF0kuFPqrFFh 438 - 500 - text/plain;+charset=utf-8 43207.5227ms
+2023-09-30 22:41:48.422 +00:00[INF]Request starting HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundaryYsLnEAfnJprBiXIA 438
+2023-09-30 22:41:48.424 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-09-30 22:41:48.425 +00:00[INF]Route matched with {action = "SignUp", controller = "User"}. Executing controller action with signature Boolean SignUp(docServer.Models.User) on controller docServer.Controller.UserController (docServer).
+2023-09-30 22:41:48.488 +00:00[INF]Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'DocServer_db'
+2023-09-30 22:41:48.488 +00:00[INF]Executed action docServer.Controller.UserController.SignUp (docServer) in 63.3914ms
+2023-09-30 22:41:48.489 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-09-30 22:41:48.489 +00:00[ERR]An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'docServer.IRepository.IUserService' while attempting to activate 'docServer.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-30 22:41:48.504 +00:00[INF]Request finished HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundaryYsLnEAfnJprBiXIA 438 - 500 - text/plain;+charset=utf-8 82.6388ms

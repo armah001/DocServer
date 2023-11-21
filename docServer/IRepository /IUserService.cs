@@ -8,6 +8,9 @@ namespace docServer.IRepository
 	{
         bool CreateUser(User user);
         (bool, string) AuthenticateUser(LoginDTO userLogInDto);
+        (bool, string) UpdateUSer(SignupDTO userSignupDTO);
+        (bool, string) UpdateUSerPassword(SignupDTO userSignupDTO);
+
 
     }
 }

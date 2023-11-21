@@ -1,0 +1,388 @@
+2023-11-21 15:17:20.223 +00:00[INF]Now listening on: https://localhost:7214
+2023-11-21 15:17:20.243 +00:00[INF]Now listening on: http://localhost:5284
+2023-11-21 15:17:20.246 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-11-21 15:17:20.246 +00:00[INF]Hosting environment: Development
+2023-11-21 15:17:20.246 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-11-21 15:17:21.427 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-11-21 15:17:21.469 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 44.3164ms
+2023-11-21 15:17:25.903 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/index.html - -
+2023-11-21 15:17:26.031 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/index.html - - - 200 - text/html;charset=utf-8 127.5076ms
+2023-11-21 15:17:26.067 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/swagger-ui.css - -
+2023-11-21 15:17:26.147 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/swagger-ui-standalone-preset.js - -
+2023-11-21 15:17:26.175 +00:00[INF]Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-11-21 15:17:26.175 +00:00[INF]Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-11-21 15:17:26.175 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/swagger-ui.css - - - 200 144929 text/css 108.0839ms
+2023-11-21 15:17:26.175 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 27.9589ms
+2023-11-21 15:17:26.198 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/swagger-ui-bundle.js - -
+2023-11-21 15:17:26.267 +00:00[INF]Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-11-21 15:17:26.269 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 71.0437ms
+2023-11-21 15:17:26.376 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - -
+2023-11-21 15:17:26.390 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/favicon-32x32.png - -
+2023-11-21 15:17:26.390 +00:00[INF]Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-21 15:17:26.390 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/favicon-32x32.png - - - 200 628 image/png 0.3100ms
+2023-11-21 15:17:26.480 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 104.2327ms
+2023-11-21 15:18:16.113 +00:00[INF]Request starting HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundaryJ6aDjBAgAze10f3R 450
+2023-11-21 15:18:16.136 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-11-21 15:18:16.178 +00:00[INF]Route matched with {action = "SignUp", controller = "User"}. Executing controller action with signature Boolean SignUp(docServer.Models.User) on controller docServer.Controller.UserController (docServer).
+2023-11-21 15:18:17.015 +00:00[INF]Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'DocServer_db'
+2023-11-21 15:18:17.104 +00:00[INF]Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2023-11-21 15:18:17.148 +00:00[INF]Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `docServerUser` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `FullName` nvarchar(100) NOT NULL,
+    `Email` nvarchar(100) NOT NULL,
+    `Password` nvarchar(100) NOT NULL,
+    `UserRole` int NOT NULL,
+    CONSTRAINT `UserId` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2023-11-21 15:18:17.160 +00:00[INF]Executed action docServer.Controller.UserController.SignUp (docServer) in 978.1823ms
+2023-11-21 15:18:17.161 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-11-21 15:18:17.164 +00:00[ERR]An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'docServer.IRepository.IUserService' while attempting to activate 'docServer.Controller.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-21 15:18:17.191 +00:00[INF]Request finished HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundaryJ6aDjBAgAze10f3R 450 - 500 - text/plain;+charset=utf-8 1079.0805ms
+2023-11-21 15:40:41.848 +00:00[INF]Now listening on: https://localhost:7214
+2023-11-21 15:40:41.866 +00:00[INF]Now listening on: http://localhost:5284
+2023-11-21 15:40:41.869 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-11-21 15:40:41.869 +00:00[INF]Hosting environment: Development
+2023-11-21 15:40:41.869 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-11-21 15:40:42.971 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-11-21 15:40:43.011 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 42.3990ms
+2023-11-21 15:40:47.832 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/index.html - -
+2023-11-21 15:40:47.972 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/index.html - - - 200 - text/html;charset=utf-8 139.8522ms
+2023-11-21 15:40:48.102 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - -
+2023-11-21 15:40:48.187 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 85.3235ms
+2023-11-21 15:41:53.172 +00:00[INF]Request starting HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundaryO9x00BNXRX785j1V 456
+2023-11-21 15:41:53.193 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-11-21 15:41:53.228 +00:00[INF]Route matched with {action = "SignUp", controller = "User"}. Executing controller action with signature Boolean SignUp(docServer.Models.User) on controller docServer.Controller.UserController (docServer).
+2023-11-21 15:41:54.084 +00:00[INF]Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'DocServer_db'
+2023-11-21 15:41:54.108 +00:00[INF]Executed action docServer.Controller.UserController.SignUp (docServer) in 877.7813ms
+2023-11-21 15:41:54.109 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-11-21 15:41:54.112 +00:00[ERR]An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Could not create an instance of type 'docServer.Models.User'. Model bound complex types must not be abstract or value types and must have a parameterless constructor. Record types must have a single primary constructor. Alternatively, give the 'user' parameter a non-null default value.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder.CreateModel(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder.BindModelCoreAsync(ModelBindingContext bindingContext, Int32 propertyData)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-11-21 15:41:54.138 +00:00[INF]Request finished HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundaryO9x00BNXRX785j1V 456 - 500 - text/plain;+charset=utf-8 966.5636ms
+2023-11-21 15:51:01.844 +00:00[INF]Now listening on: https://localhost:7214
+2023-11-21 15:51:01.870 +00:00[INF]Now listening on: http://localhost:5284
+2023-11-21 15:51:01.873 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-11-21 15:51:01.873 +00:00[INF]Hosting environment: Development
+2023-11-21 15:51:01.873 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-11-21 15:51:03.198 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-11-21 15:51:03.239 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 43.5773ms
+2023-11-21 15:51:07.517 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/index.html - -
+2023-11-21 15:51:07.660 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/index.html - - - 200 - text/html;charset=utf-8 143.0595ms
+2023-11-21 15:51:07.801 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - -
+2023-11-21 15:51:07.898 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 96.8384ms
+2023-11-21 15:52:40.140 +00:00[INF]Now listening on: https://localhost:7214
+2023-11-21 15:52:40.159 +00:00[INF]Now listening on: http://localhost:5284
+2023-11-21 15:52:40.162 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-11-21 15:52:40.162 +00:00[INF]Hosting environment: Development
+2023-11-21 15:52:40.162 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-11-21 15:52:41.279 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-11-21 15:52:41.320 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 45.5839ms
+2023-11-21 15:52:45.573 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/index.html - -
+2023-11-21 15:52:45.715 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/index.html - - - 200 - text/html;charset=utf-8 142.7681ms
+2023-11-21 15:52:45.807 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - -
+2023-11-21 15:52:45.894 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 86.8270ms
+2023-11-21 15:53:08.524 +00:00[INF]Request starting HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundarydRkVBgJ7XLwwldfr 545
+2023-11-21 15:53:08.540 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-11-21 15:53:08.581 +00:00[INF]Route matched with {action = "SignUp", controller = "User"}. Executing controller action with signature Boolean SignUp(docServer.Models.User) on controller docServer.Controller.UserController (docServer).
+2023-11-21 15:53:09.406 +00:00[INF]Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'DocServer_db'
+2023-11-21 15:53:09.433 +00:00[INF]Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-11-21 15:53:09.447 +00:00[INF]Executed action docServer.Controller.UserController.SignUp (docServer) in 862.744ms
+2023-11-21 15:53:09.447 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-11-21 15:53:09.454 +00:00[INF]Request finished HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundarydRkVBgJ7XLwwldfr 545 - 400 - application/problem+json;+charset=utf-8 930.4303ms
+2023-11-21 15:53:31.270 +00:00[INF]Request starting HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundaryMZva2NBaBDgywiIk 456
+2023-11-21 15:53:31.274 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-11-21 15:53:31.275 +00:00[INF]Route matched with {action = "SignUp", controller = "User"}. Executing controller action with signature Boolean SignUp(docServer.Models.User) on controller docServer.Controller.UserController (docServer).
+2023-11-21 15:53:31.310 +00:00[INF]Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'DocServer_db'
+2023-11-21 15:53:31.312 +00:00[INF]Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-11-21 15:53:31.312 +00:00[INF]Executed action docServer.Controller.UserController.SignUp (docServer) in 37.471ms
+2023-11-21 15:53:31.312 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-11-21 15:53:31.312 +00:00[INF]Request finished HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundaryMZva2NBaBDgywiIk 456 - 400 - application/problem+json;+charset=utf-8 41.9808ms
+2023-11-21 15:53:57.327 +00:00[INF]Request starting HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundaryJKS6ihA9GP0X9NIY 457
+2023-11-21 15:53:57.329 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-11-21 15:53:57.330 +00:00[INF]Route matched with {action = "SignUp", controller = "User"}. Executing controller action with signature Boolean SignUp(docServer.Models.User) on controller docServer.Controller.UserController (docServer).
+2023-11-21 15:53:57.398 +00:00[INF]Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'DocServer_db'
+2023-11-21 15:53:57.591 +00:00[INF]Executed DbCommand (44ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (Size = 100), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `docServerUser` (`Email`, `FullName`, `Password`, `UserRole`)
+VALUES (@p0, @p1, @p2, @p3);
+SELECT `Id`
+FROM `docServerUser`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2023-11-21 15:53:57.621 +00:00[INF]Successfully created user at "2023-11-21T15:53:57.6210530+00:00"
+2023-11-21 15:53:57.621 +00:00[INF]Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-11-21 15:53:57.622 +00:00[INF]Executed action docServer.Controller.UserController.SignUp (docServer) in 291.868ms
+2023-11-21 15:53:57.622 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-11-21 15:53:57.622 +00:00[INF]Request finished HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundaryJKS6ihA9GP0X9NIY 457 - 200 - application/json;+charset=utf-8 295.4054ms
+2023-11-21 15:54:21.512 +00:00[INF]Request starting HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundary9rDniEe1pbCFQE96 451
+2023-11-21 15:54:21.516 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-11-21 15:54:21.516 +00:00[INF]Route matched with {action = "SignUp", controller = "User"}. Executing controller action with signature Boolean SignUp(docServer.Models.User) on controller docServer.Controller.UserController (docServer).
+2023-11-21 15:54:21.524 +00:00[INF]Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'DocServer_db'
+2023-11-21 15:54:21.530 +00:00[INF]Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100), @p2='?' (Size = 100), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `docServerUser` (`Email`, `FullName`, `Password`, `UserRole`)
+VALUES (@p0, @p1, @p2, @p3);
+SELECT `Id`
+FROM `docServerUser`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2023-11-21 15:54:21.531 +00:00[INF]Successfully created user at "2023-11-21T15:54:21.5311020+00:00"
+2023-11-21 15:54:21.531 +00:00[INF]Executing ObjectResult, writing value of type 'System.Boolean'.
+2023-11-21 15:54:21.531 +00:00[INF]Executed action docServer.Controller.UserController.SignUp (docServer) in 15.0011ms
+2023-11-21 15:54:21.531 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.SignUp (docServer)'
+2023-11-21 15:54:21.531 +00:00[INF]Request finished HTTP/1.1 POST https://localhost:7214/api/v1/user/SignUp multipart/form-data;+boundary=----WebKitFormBoundary9rDniEe1pbCFQE96 451 - 200 - application/json;+charset=utf-8 19.0504ms
+2023-11-21 16:01:58.204 +00:00[INF]Now listening on: https://localhost:7214
+2023-11-21 16:01:58.230 +00:00[INF]Now listening on: http://localhost:5284
+2023-11-21 16:01:58.233 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-11-21 16:01:58.233 +00:00[INF]Hosting environment: Development
+2023-11-21 16:01:58.233 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-11-21 16:01:59.373 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-11-21 16:01:59.438 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 68.8737ms
+2023-11-21 16:02:05.318 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/index.html - -
+2023-11-21 16:02:05.454 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/index.html - - - 200 - text/html;charset=utf-8 135.6865ms
+2023-11-21 16:02:05.587 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - -
+2023-11-21 16:02:05.673 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 86.5218ms
+2023-11-21 16:02:31.302 +00:00[INF]Request starting HTTP/1.1 POST https://localhost:7214/api/v1/user/SignIn multipart/form-data;+boundary=----WebKitFormBoundary7xEPAFAXGQk2qVMV 250
+2023-11-21 16:02:31.317 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.SignIn (docServer)'
+2023-11-21 16:02:31.356 +00:00[INF]Route matched with {action = "SignIn", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] SignIn(docServer.DTOs.LoginDTO) on controller docServer.Controller.UserController (docServer).
+2023-11-21 16:02:32.148 +00:00[INF]Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'DocServer_db'
+2023-11-21 16:02:32.174 +00:00[INF]Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-11-21 16:02:32.188 +00:00[INF]Executed action docServer.Controller.UserController.SignIn (docServer) in 829.1106ms
+2023-11-21 16:02:32.188 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.SignIn (docServer)'
+2023-11-21 16:02:32.195 +00:00[INF]Request finished HTTP/1.1 POST https://localhost:7214/api/v1/user/SignIn multipart/form-data;+boundary=----WebKitFormBoundary7xEPAFAXGQk2qVMV 250 - 400 - application/problem+json;+charset=utf-8 894.3635ms
+2023-11-21 16:02:54.314 +00:00[INF]Request starting HTTP/1.1 POST https://localhost:7214/api/v1/user/SignIn multipart/form-data;+boundary=----WebKitFormBoundaryOztodOxPtUlhA3i6 250
+2023-11-21 16:02:54.317 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.SignIn (docServer)'
+2023-11-21 16:02:54.318 +00:00[INF]Route matched with {action = "SignIn", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] SignIn(docServer.DTOs.LoginDTO) on controller docServer.Controller.UserController (docServer).
+2023-11-21 16:02:54.351 +00:00[INF]Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'DocServer_db'
+2023-11-21 16:02:54.352 +00:00[INF]Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-11-21 16:02:54.352 +00:00[INF]Executed action docServer.Controller.UserController.SignIn (docServer) in 34.317ms
+2023-11-21 16:02:54.353 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.SignIn (docServer)'
+2023-11-21 16:02:54.353 +00:00[INF]Request finished HTTP/1.1 POST https://localhost:7214/api/v1/user/SignIn multipart/form-data;+boundary=----WebKitFormBoundaryOztodOxPtUlhA3i6 250 - 400 - application/problem+json;+charset=utf-8 38.9415ms
+2023-11-21 16:04:56.960 +00:00[INF]Now listening on: https://localhost:7214
+2023-11-21 16:04:56.979 +00:00[INF]Now listening on: http://localhost:5284
+2023-11-21 16:04:56.982 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-11-21 16:04:56.982 +00:00[INF]Hosting environment: Development
+2023-11-21 16:04:56.982 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-11-21 16:04:58.109 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-11-21 16:04:58.162 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 56.0565ms
+2023-11-21 16:05:02.831 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/index.html - -
+2023-11-21 16:05:02.969 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/index.html - - - 200 - text/html;charset=utf-8 138.0409ms
+2023-11-21 16:05:03.071 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - -
+2023-11-21 16:05:03.154 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 82.8607ms
+2023-11-21 16:05:13.701 +00:00[INF]Request starting HTTP/1.1 POST https://localhost:7214/api/v1/user/SignIn multipart/form-data;+boundary=----WebKitFormBoundaryL2gYlMq9KHSrJThM 250
+2023-11-21 16:05:13.714 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.SignIn (docServer)'
+2023-11-21 16:05:13.752 +00:00[INF]Route matched with {action = "SignIn", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] SignIn(docServer.DTOs.LoginDTO) on controller docServer.Controller.UserController (docServer).
+2023-11-21 16:05:14.520 +00:00[INF]Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'DocServer_db'
+2023-11-21 16:05:14.817 +00:00[INF]Executed DbCommand (29ms) [Parameters=[@__userLogInDto_Email_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`Email`, `d`.`FullName`, `d`.`Password`, `d`.`UserRole`
+FROM `docServerUser` AS `d`
+WHERE `d`.`Email` = @__userLogInDto_Email_0
+LIMIT 1
+2023-11-21 16:05:14.850 +00:00[INF]Executing StatusCodeResult, setting HTTP status code 200
+2023-11-21 16:05:14.853 +00:00[INF]Executed action docServer.Controller.UserController.SignIn (docServer) in 1097.9628ms
+2023-11-21 16:05:14.854 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.SignIn (docServer)'
+2023-11-21 16:05:14.860 +00:00[INF]Request finished HTTP/1.1 POST https://localhost:7214/api/v1/user/SignIn multipart/form-data;+boundary=----WebKitFormBoundaryL2gYlMq9KHSrJThM 250 - 200 0 - 1159.2669ms
+2023-11-21 16:05:40.540 +00:00[INF]Request starting HTTP/1.1 POST https://localhost:7214/api/v1/user/SignIn multipart/form-data;+boundary=----WebKitFormBoundary4jEeIn4GDZCRez3E 251
+2023-11-21 16:05:40.551 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.SignIn (docServer)'
+2023-11-21 16:05:40.552 +00:00[INF]Route matched with {action = "SignIn", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] SignIn(docServer.DTOs.LoginDTO) on controller docServer.Controller.UserController (docServer).
+2023-11-21 16:05:40.624 +00:00[INF]Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'DocServer_db'
+2023-11-21 16:05:40.640 +00:00[INF]Executed DbCommand (3ms) [Parameters=[@__userLogInDto_Email_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`Email`, `d`.`FullName`, `d`.`Password`, `d`.`UserRole`
+FROM `docServerUser` AS `d`
+WHERE `d`.`Email` = @__userLogInDto_Email_0
+LIMIT 1
+2023-11-21 16:05:40.662 +00:00[INF]Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-11-21 16:05:40.683 +00:00[INF]Executed action docServer.Controller.UserController.SignIn (docServer) in 130.6488ms
+2023-11-21 16:05:40.683 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.SignIn (docServer)'
+2023-11-21 16:05:40.683 +00:00[INF]Request finished HTTP/1.1 POST https://localhost:7214/api/v1/user/SignIn multipart/form-data;+boundary=----WebKitFormBoundary4jEeIn4GDZCRez3E 251 - 401 - application/json;+charset=utf-8 145.3712ms
+2023-11-21 16:06:12.663 +00:00[INF]Now listening on: https://localhost:7214
+2023-11-21 16:06:12.685 +00:00[INF]Now listening on: http://localhost:5284
+2023-11-21 16:06:12.687 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-11-21 16:06:12.688 +00:00[INF]Hosting environment: Development
+2023-11-21 16:06:12.688 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-11-21 16:06:13.797 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-11-21 16:06:13.852 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 57.6536ms
+2023-11-21 16:06:18.062 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/index.html - -
+2023-11-21 16:06:18.200 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/index.html - - - 200 - text/html;charset=utf-8 137.7262ms
+2023-11-21 16:06:18.282 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - -
+2023-11-21 16:06:18.363 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.9899ms
+2023-11-21 16:06:28.591 +00:00[INF]Request starting HTTP/1.1 POST https://localhost:7214/api/v1/user/SignIn multipart/form-data;+boundary=----WebKitFormBoundary7RDFiAzboIExcetT 250
+2023-11-21 16:06:28.606 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.SignIn (docServer)'
+2023-11-21 16:06:28.648 +00:00[INF]Route matched with {action = "SignIn", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] SignIn(docServer.DTOs.LoginDTO) on controller docServer.Controller.UserController (docServer).
+2023-11-21 16:06:29.385 +00:00[INF]Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'DocServer_db'
+2023-11-21 16:06:29.669 +00:00[INF]Executed DbCommand (17ms) [Parameters=[@__userLogInDto_Email_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`Email`, `d`.`FullName`, `d`.`Password`, `d`.`UserRole`
+FROM `docServerUser` AS `d`
+WHERE `d`.`Email` = @__userLogInDto_Email_0
+LIMIT 1
+2023-11-21 16:06:29.702 +00:00[INF]Executing StatusCodeResult, setting HTTP status code 200
+2023-11-21 16:06:29.705 +00:00[INF]Executed action docServer.Controller.UserController.SignIn (docServer) in 1053.2557ms
+2023-11-21 16:06:29.705 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.SignIn (docServer)'
+2023-11-21 16:06:29.712 +00:00[INF]Request finished HTTP/1.1 POST https://localhost:7214/api/v1/user/SignIn multipart/form-data;+boundary=----WebKitFormBoundary7RDFiAzboIExcetT 250 - 200 0 - 1120.7528ms
+2023-11-21 16:06:34.675 +00:00[INF]Request starting HTTP/1.1 POST https://localhost:7214/api/v1/user/SignIn multipart/form-data;+boundary=----WebKitFormBoundaryfpKDy73O9uOIlsd4 251
+2023-11-21 16:06:34.678 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.SignIn (docServer)'
+2023-11-21 16:06:34.679 +00:00[INF]Route matched with {action = "SignIn", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] SignIn(docServer.DTOs.LoginDTO) on controller docServer.Controller.UserController (docServer).
+2023-11-21 16:06:34.689 +00:00[INF]Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'DocServer_db'
+2023-11-21 16:06:34.696 +00:00[INF]Executed DbCommand (0ms) [Parameters=[@__userLogInDto_Email_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`Email`, `d`.`FullName`, `d`.`Password`, `d`.`UserRole`
+FROM `docServerUser` AS `d`
+WHERE `d`.`Email` = @__userLogInDto_Email_0
+LIMIT 1
+2023-11-21 16:06:34.707 +00:00[INF]Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-11-21 16:06:34.726 +00:00[INF]Executed action docServer.Controller.UserController.SignIn (docServer) in 46.621ms
+2023-11-21 16:06:34.726 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.SignIn (docServer)'
+2023-11-21 16:06:34.726 +00:00[INF]Request finished HTTP/1.1 POST https://localhost:7214/api/v1/user/SignIn multipart/form-data;+boundary=----WebKitFormBoundaryfpKDy73O9uOIlsd4 251 - 401 - application/json;+charset=utf-8 51.3300ms
+2023-11-21 16:28:02.524 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/index.html - -
+2023-11-21 16:28:02.534 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/index.html - - - 200 - text/html;charset=utf-8 10.0168ms
+2023-11-21 16:28:02.698 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - -
+2023-11-21 16:28:02.710 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 11.7988ms
+2023-11-21 16:29:44.093 +00:00[INF]Now listening on: https://localhost:7214
+2023-11-21 16:29:44.118 +00:00[INF]Now listening on: http://localhost:5284
+2023-11-21 16:29:44.121 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-11-21 16:29:44.121 +00:00[INF]Hosting environment: Development
+2023-11-21 16:29:44.121 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-11-21 16:29:45.355 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-11-21 16:29:45.403 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 51.5582ms
+2023-11-21 16:29:51.147 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/index.html - -
+2023-11-21 16:29:51.286 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/index.html - - - 200 - text/html;charset=utf-8 139.1394ms
+2023-11-21 16:29:51.386 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - -
+2023-11-21 16:29:51.487 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 101.4069ms
+2023-11-21 16:32:36.138 +00:00[INF]Now listening on: https://localhost:7214
+2023-11-21 16:32:36.158 +00:00[INF]Now listening on: http://localhost:5284
+2023-11-21 16:32:36.161 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-11-21 16:32:36.161 +00:00[INF]Hosting environment: Development
+2023-11-21 16:32:36.161 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-11-21 16:32:37.385 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-11-21 16:32:37.429 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 47.6621ms
+2023-11-21 16:35:53.982 +00:00[INF]Now listening on: https://localhost:7214
+2023-11-21 16:35:54.026 +00:00[INF]Now listening on: http://localhost:5284
+2023-11-21 16:35:54.028 +00:00[INF]Application started. Press Ctrl+C to shut down.
+2023-11-21 16:35:54.028 +00:00[INF]Hosting environment: Development
+2023-11-21 16:35:54.028 +00:00[INF]Content root path: /Users/armah/Documents/SE Projects/docServer/docServer/
+2023-11-21 16:35:55.194 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/ - -
+2023-11-21 16:35:55.243 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/ - - - 404 0 - 52.1433ms
+2023-11-21 16:36:08.511 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/index.html - -
+2023-11-21 16:36:08.641 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/index.html - - - 200 - text/html;charset=utf-8 130.2305ms
+2023-11-21 16:36:08.726 +00:00[INF]Request starting HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - -
+2023-11-21 16:36:08.814 +00:00[INF]Request finished HTTP/1.1 GET https://localhost:7214/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 88.4237ms
+2023-11-21 16:37:58.003 +00:00[INF]Request starting HTTP/1.1 PUT https://localhost:7214/api/v1/user/UpdateUserPassword application/json 91
+2023-11-21 16:37:58.022 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.ResetUserPassword (docServer)'
+2023-11-21 16:37:58.060 +00:00[INF]Route matched with {action = "ResetUserPassword", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] ResetUserPassword(docServer.DTOs.SignupDTO) on controller docServer.Controller.UserController (docServer).
+2023-11-21 16:37:58.901 +00:00[INF]Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'DocServer_db'
+2023-11-21 16:37:59.207 +00:00[INF]Executed DbCommand (31ms) [Parameters=[@__userSignUpDTO_Email_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`Email`, `d`.`FullName`, `d`.`Password`, `d`.`UserRole`
+FROM `docServerUser` AS `d`
+WHERE `d`.`Email` = @__userSignUpDTO_Email_0
+LIMIT 1
+2023-11-21 16:37:59.215 +00:00[INF]Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-11-21 16:37:59.226 +00:00[INF]Executed action docServer.Controller.UserController.ResetUserPassword (docServer) in 1162.793ms
+2023-11-21 16:37:59.226 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.ResetUserPassword (docServer)'
+2023-11-21 16:37:59.234 +00:00[INF]Request finished HTTP/1.1 PUT https://localhost:7214/api/v1/user/UpdateUserPassword application/json 91 - 401 - application/json;+charset=utf-8 1230.9600ms
+2023-11-21 16:38:42.698 +00:00[INF]Request starting HTTP/1.1 PUT https://localhost:7214/api/v1/user/UpdateUserPassword application/json 89
+2023-11-21 16:38:42.705 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.ResetUserPassword (docServer)'
+2023-11-21 16:38:42.707 +00:00[INF]Route matched with {action = "ResetUserPassword", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] ResetUserPassword(docServer.DTOs.SignupDTO) on controller docServer.Controller.UserController (docServer).
+2023-11-21 16:38:42.728 +00:00[INF]Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'DocServer_db'
+2023-11-21 16:38:42.742 +00:00[INF]Executed DbCommand (3ms) [Parameters=[@__userSignUpDTO_Email_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`Email`, `d`.`FullName`, `d`.`Password`, `d`.`UserRole`
+FROM `docServerUser` AS `d`
+WHERE `d`.`Email` = @__userSignUpDTO_Email_0
+LIMIT 1
+2023-11-21 16:38:42.875 +00:00[INF]Executed DbCommand (18ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `docServerUser` SET `Password` = @p0
+WHERE `Id` = @p1;
+SELECT ROW_COUNT();
+2023-11-21 16:38:42.884 +00:00[INF]Executing StatusCodeResult, setting HTTP status code 200
+2023-11-21 16:38:42.884 +00:00[INF]Executed action docServer.Controller.UserController.ResetUserPassword (docServer) in 176.9863ms
+2023-11-21 16:38:42.884 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.ResetUserPassword (docServer)'
+2023-11-21 16:38:42.884 +00:00[INF]Request finished HTTP/1.1 PUT https://localhost:7214/api/v1/user/UpdateUserPassword application/json 89 - 200 0 - 186.7696ms
+2023-11-21 16:39:14.352 +00:00[INF]Request starting HTTP/1.1 PUT https://localhost:7214/api/v1/user/UpdateUser application/json 78
+2023-11-21 16:39:14.355 +00:00[INF]Executing endpoint 'docServer.Controller.UserController.UpdateAccount (docServer)'
+2023-11-21 16:39:14.362 +00:00[INF]Route matched with {action = "UpdateAccount", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] UpdateAccount(docServer.DTOs.SignupDTO) on controller docServer.Controller.UserController (docServer).
+2023-11-21 16:39:14.429 +00:00[INF]Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'DocServer_db'
+2023-11-21 16:39:14.434 +00:00[INF]Executed DbCommand (2ms) [Parameters=[@__userSignUpDTO_Email_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT `d`.`Id`, `d`.`Email`, `d`.`FullName`, `d`.`Password`, `d`.`UserRole`
+FROM `docServerUser` AS `d`
+WHERE `d`.`Email` = @__userSignUpDTO_Email_0
+LIMIT 1
+2023-11-21 16:39:14.439 +00:00[INF]Executed DbCommand (3ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 100), @p1='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `docServerUser` SET `FullName` = @p0, `Password` = @p1
+WHERE `Id` = @p2;
+SELECT ROW_COUNT();
+2023-11-21 16:39:14.439 +00:00[INF]Executing StatusCodeResult, setting HTTP status code 200
+2023-11-21 16:39:14.439 +00:00[INF]Executed action docServer.Controller.UserController.UpdateAccount (docServer) in 77.167ms
+2023-11-21 16:39:14.439 +00:00[INF]Executed endpoint 'docServer.Controller.UserController.UpdateAccount (docServer)'
+2023-11-21 16:39:14.439 +00:00[INF]Request finished HTTP/1.1 PUT https://localhost:7214/api/v1/user/UpdateUser application/json 78 - 200 0 - 87.7687ms

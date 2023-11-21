@@ -1,13 +1,23 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
+using Microsoft.AspNetCore.Identity;
+using Org.BouncyCastle.Crypto.Generators;
 
 namespace docServer.Models
 {
+    
+
     public class User
     {
+        public User()
+        {
+        }
+
         [Key]
-        public int Id;
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
 
         [Required]
         public String FullName { get; set; }
@@ -31,8 +41,19 @@ namespace docServer.Models
             FullName = fullName;
             Email = email;
             Password = password;
+
+            //PasswordHash = HashPassword(plainTextPassword);
+
             UserRole = userRole;
         }
+
+        //private string HashPassword(string plainTextPassword)
+        //{
+        //    // Adjust the work factor (12 is a reasonable starting point)
+        //    return BCrypt.Net.BCrypt.HashPassword(plainTextPassword, 12);
+        //}
+
+
     }
 }
 
